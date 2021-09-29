@@ -2,6 +2,7 @@
 	export let name;
 	const mssg = __testApp.env.BRETT_S;
 	const nodeenv = __testApp.env.NODE_ENV;
+	const nodever = __testApp.env.NODE_VER;
 	
 </script>
 
@@ -10,6 +11,7 @@
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 	<p>This is our env message: <strong>{mssg}</strong></p>
 	<p>NODE_ENV: {nodeenv}</p>
+	<p>node version: {nodever}</p>
 </main>
 
 <style>
