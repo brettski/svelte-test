@@ -45,7 +45,7 @@ export default {
 					isProd: production,
 					BRETT_S: process.env.BRETT_S,
 					NODE_ENV: process.env.NODE_ENV,
-					NODE_VER: process.ver,
+					NODE_VER: process.version,
 				}
 			})
 		}),
